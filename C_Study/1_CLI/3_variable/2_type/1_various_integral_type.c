@@ -1,5 +1,8 @@
 #include <stdio.h>
 /*
+  c: 1 byte 문자
+hhd: 정수형 char
+ hd: short
   d: 부호가 있는 10진수 정수 (char, short, int 계열)
  ld: long
 lld: long long
