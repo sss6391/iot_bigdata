@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#pragma warning (disable:4996)
 void main(){
 	int num=0;
 	int count=0;

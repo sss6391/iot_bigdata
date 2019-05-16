@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning (disable:4996)
 int Bignum(num1, num2, num3);
 int smallnum(num1, num2, num3);
 
