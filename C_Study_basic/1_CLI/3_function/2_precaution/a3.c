@@ -15,6 +15,8 @@ void main(){
 		while(max < 1000000){
 			if( (num / max) % 10 == 3){
 				count++;
+			}else if( (num / max) == 0 ){
+				break;
 			}
 		max = max * 10;		
 		}
