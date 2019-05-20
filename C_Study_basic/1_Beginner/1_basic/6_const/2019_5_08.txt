@@ -1,7 +1,0 @@
-프로그램
-
-CRUD
-C: Creat
-R: Read 
-U: Update
-D: Delete
