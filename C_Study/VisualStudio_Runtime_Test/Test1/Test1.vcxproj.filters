@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="q1.c">
+    <ClCompile Include="..\..\2_intermediate\3_Array\2_string\6_t_Korean_String2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
