@@ -3,23 +3,25 @@
 
 void main() {
 
-	char arr[30];
-	int i=0;
-//	int counter=0;
+	char string[50];
+	int index=0;
+	int counter=0;
+	int temporary;
 
 	printf("입력받을 문자열: ");
-	scanf("%s", arr);
+	scanf("%s", string);
 
-	while (arr[i] != '\0') {
-//		counter++;
-		i++;
+	while (string[counter] != '\0') {
+		counter++;
 	}
 
-	while (1) {
-		printf("%c", arr[i-1]);
-		i--;
-		if (i < 1) {
-			break;
-		}
+	for (index = 0; index < counter/2; index++) {
+		temporary = string[index];
+		string[index] = string[counter - index - 1];
+		string[counter - index - 1] = temporary;
+	}
+
+	for (index = 0; index < counter; index++) {
+		printf("%c", string[index]);
 	}
 }

@@ -7,29 +7,27 @@ void main() {
 	int max;
 	int min;
 	int total=0;
+	int size;
 
-	for (i = 0; i < 5; i++) {
+	size = sizeof(arr) / sizeof(int);
+	for (i = 0; i < size; i++) {
 		printf("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
 		scanf("%d", &arr[i]);
 	}
 
+	min = arr[0];
 	max = arr[0];
-	for (i = 0; i < 5; i++) {
+
+	for (i = 0; i < size; i++) {
 		if (max < arr[i]) {
 			max = arr[i];
-		}
-	}
-
-	min = arr[0];
-	for (i = 0; i < 5; i++) {
-		if (min > arr[i]) {
+		}if (min > arr[i]) {
 			min = arr[i];
 		}
 	}
 
-	for (i = 0; i < 5; i++) {
+	for (i = 0; i < size; i++) {
 		total += arr[i];
 	}
 	printf("ÃÖ´ñ°ª: %d ÃÖ¼Ú°ª: %d ÃÑ ÇÕ: %d", max, min, total);
-
 }

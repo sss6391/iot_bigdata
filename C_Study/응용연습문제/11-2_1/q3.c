@@ -3,15 +3,15 @@
 
 void main() {
 	char arr[100];
-	int i=0;
+	int index=0;
 //	int counter = 0;
 
 	printf("입력받을 문자열: ");
 	scanf("%s", arr);
 
-	while (arr[i] != '\0') {
+	while (arr[index] != '\0') {
 	//	counter++;
-		i++;
+		index++;
 	}
-	printf("입력하신 문자의 길이는 %d 입니다", i);
+	printf("입력하신 문자의 길이는 %d 입니다", index);
 }
