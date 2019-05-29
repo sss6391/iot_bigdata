@@ -12,51 +12,49 @@ void main() {
 	int rock = 1;
 	int scissors = 2;
 	int paper = 3;
-
+	
 	srand((int)time(NULL));
 
 	while (1) {
-		computer_number = rand() % 10;
-		if (computer_number < 3) {
-			printf("바위는 1, 가위는 2, 보는 3: ");
-			scanf("%d", &your_number);
-			if (computer_number + 1 == your_number) {
-				printf("비겼습니다\n");
-				drew++;
+		computer_number = (rand() % 3) + 1;
+		printf("바위는 1, 가위는 2, 보는 3: ");
+		scanf("%d", &your_number);
+		if (computer_number == your_number) {
+			printf("비겼습니다\n");
+			drew++;
+			continue;
+		}
+		if (your_number == rock) {
+			if (computer_number  == scissors) {
+				printf("당신은 주먹 선택, 컴퓨터는 가위 선택, 이겼습니다\n");
+				win++;
 				continue;
 			}
-			if (your_number == rock) {
-				if (computer_number + 1 == scissors) {
-					printf("당신은 주먹 선택, 컴퓨터는 가위 선택, 이겼습니다\n");
-					win++;
-					continue;
-				}
-				else if (computer_number + 1 == paper) {
-					printf("당신은 주먹 선택, 컴퓨터는 보 선택, 졌습니다\n");
-					break;
-				}
+			else if (computer_number == paper) {
+				printf("당신은 주먹 선택, 컴퓨터는 보 선택, 졌습니다\n");
+				break;
 			}
-			if (your_number == scissors) {
-				if (computer_number + 1 == paper) {
-					printf("당신은 가위 선택, 컴퓨터는 보 선택, 이겼습니다\n");
-					win++;
-					continue;
-				}
-				else if (computer_number + 1 == rock) {
-					printf("당신은 가위 선택, 컴퓨터는 바위 선택, 졌습니다\n");
-					break;
-				}
+		}
+		if (your_number == scissors) {
+			if (computer_number == paper) {
+				printf("당신은 가위 선택, 컴퓨터는 보 선택, 이겼습니다\n");
+				win++;
+				continue;
 			}
-			if (your_number == paper) {
-				if (computer_number + 1 == rock) {
-					printf("당신은 보 선택, 컴퓨터는 바위 선택, 이겼습니다\n");
-					win++;
-					continue;
-				}
-				else if (computer_number + 1 == scissors) {
-					printf("당신은 보 선택, 컴퓨터는 가위 선택, 졌습니다\n");
-					break;
-				}
+			else if (computer_number == rock) {
+				printf("당신은 가위 선택, 컴퓨터는 바위 선택, 졌습니다\n");
+				break;
+			}
+		}
+		if (your_number == paper) {
+			if (computer_number == rock) {
+				printf("당신은 보 선택, 컴퓨터는 바위 선택, 이겼습니다\n");
+				win++;
+				continue;
+			}
+			else if (computer_number == scissors) {
+				printf("당신은 보 선택, 컴퓨터는 가위 선택, 졌습니다\n");
+				break;
 			}
 		}
 	}

@@ -1,0 +1,3 @@
+﻿  q5_1.c
+C:\iot_bigdata\C_Study\응용연습문제\406 도전문제\도전6 수정\q5_1.c(12,6): warning C4101:  'index' :참조되지 않은 지역 변수입니다.
+  도전6 수정.vcxproj -> C:\iot_bigdata\C_Study\응용연습문제\Debug\도전5 수정.exe

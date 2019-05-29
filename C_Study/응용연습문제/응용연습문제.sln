@@ -56,6 +56,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "도전2 수정", "406 도�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "도전6", "406 도전문제\도전6\도전6.vcxproj", "{99601E34-60FC-4C14-B6A5-6D19515B91C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "도전5 수정", "406 도전문제\도전6 수정\도전6 수정.vcxproj", "{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -224,6 +226,14 @@ Global
 		{99601E34-60FC-4C14-B6A5-6D19515B91C1}.Release|x64.Build.0 = Release|x64
 		{99601E34-60FC-4C14-B6A5-6D19515B91C1}.Release|x86.ActiveCfg = Release|Win32
 		{99601E34-60FC-4C14-B6A5-6D19515B91C1}.Release|x86.Build.0 = Release|Win32
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Debug|x64.ActiveCfg = Debug|x64
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Debug|x64.Build.0 = Debug|x64
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Debug|x86.Build.0 = Debug|Win32
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Release|x64.ActiveCfg = Release|x64
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Release|x64.Build.0 = Release|x64
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Release|x86.ActiveCfg = Release|Win32
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +259,7 @@ Global
 		{4E705EAF-F813-4DBE-A258-F2B2FB3FC042} = {51461980-26BE-4294-8810-D0951688AC72}
 		{2EB55F3A-4142-4D7B-959D-FD6CE2C20E65} = {51461980-26BE-4294-8810-D0951688AC72}
 		{99601E34-60FC-4C14-B6A5-6D19515B91C1} = {51461980-26BE-4294-8810-D0951688AC72}
+		{1CFAD71D-0934-48C2-BCF6-18B06EEF016B} = {51461980-26BE-4294-8810-D0951688AC72}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D228D170-9A3D-4C20-B332-F87A5F4E3D98}

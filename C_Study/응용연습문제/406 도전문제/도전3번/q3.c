@@ -10,6 +10,5 @@ void main() {
 	for (counter = 0; counter < 5;) {
 		printf("난수의 출력: %d \n", rand() % 100);
 		counter++;
-		
 	}
 }

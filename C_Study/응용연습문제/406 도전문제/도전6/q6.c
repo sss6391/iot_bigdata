@@ -8,7 +8,7 @@ void main() {
 	int* ptr1 = &num1, * ptr2 = &num2, * ptr3 = &num3;
 	int* ptr[] = { ptr1, ptr2, ptr3 };
 
-	int random_array[3];
+	int random_array[3] = { 1,2,3 };
 	int index;
 	int index2;
 	int strike = 0;
@@ -19,15 +19,22 @@ void main() {
 
 	for (index = 0; index < sizeof(random_array) / sizeof(int); index++) {
 		random_array[index] = rand() % 10;
+		if (random_array[0] == random_array[1]) {
+			index--;
+			continue;
+		}else if (random_array[1] == random_array[2]) {
+			index--;
+		}
 	}
+
 	for (index = 0; index < sizeof(random_array) / sizeof(int); index++) {
 		printf("%d ", random_array[index]);
 	}
 	
-	printf("\n");
+	printf("\n\n");
 
 	while (strike<3) {
-		printf("숫자3개 입력: ");
+		printf("숫자3개 입력 ex)1 2 3: ");
 		scanf("%d %d %d", &num1, &num2, &num3);
 
 		counter++;

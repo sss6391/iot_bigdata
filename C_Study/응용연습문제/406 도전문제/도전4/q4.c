@@ -5,28 +5,11 @@
 
 void main() {
 	int dice_number;
-	int counter;
+	int index;
 
 	srand((int)time(NULL));
 
-	dice_number = (rand() % 10) % 6;
-	printf("주사위 1의 결과 %d \n", dice_number + 1);
-	dice_number = (rand() % 10) % 6;
-	printf("주사위 2의 결과 %d \n", dice_number + 1);
-
-	/*while (1) {
-		dice_number = rand()%10;
-		if (dice_number < 6) {
-			printf("주사위 1의 결과 %d \n", dice_number+1);
-			break;		
-		}
-	}	
-	while (1) {
-		dice_number = rand()%10;
-		if (dice_number < 6) {
-			printf("주사위 2의 결과 %d \n", dice_number+1);
-			break;
-		}
+	for (index = 0; index < 2; index++) {
+		printf("주사위 %d의 결과 %d \n", index+1, (rand() % 6) + 1);
 	}
-	*/
 }

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\도전2\q2.c">
+    <ClCompile Include="q2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
