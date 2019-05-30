@@ -33,6 +33,5 @@ void main() {
 			printf("%d\t", array1[i][j]);
 		}
 		printf("\n");
-
 	}
 }
