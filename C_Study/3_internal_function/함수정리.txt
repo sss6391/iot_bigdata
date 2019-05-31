@@ -1,6 +1,6 @@
 -----문자한개 입력------
-getchar() 
-fgetc(stdin)
+변수 = getchar() 
+변수 = fgetc(stdin)
 
 -----문자 한개 출력------
 putchar( 변수 )

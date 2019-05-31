@@ -2,10 +2,6 @@
 #include <string.h>
 #pragma warning (disable:4996)
 
-void RemoveBSN(char str[]) {
-
-}
-
 
 void main() {
 	char str[] = "1234567";

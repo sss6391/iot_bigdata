@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\3_internal_function\1_stream\q21_423.c">
+    <ClCompile Include="..\..\3_internal_function\2_string\2_435.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
