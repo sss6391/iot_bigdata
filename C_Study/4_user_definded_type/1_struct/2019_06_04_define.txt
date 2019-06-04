@@ -1,0 +1,7 @@
+#define ARR_SIZE 3
+#define [키워드][상수]
+
+
+int arr[ARR_SIZE];
+int arr[3];
+컴파일시 전처리(Preprocessing)가 일어난다.

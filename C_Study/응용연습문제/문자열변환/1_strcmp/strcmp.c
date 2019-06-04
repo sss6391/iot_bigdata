@@ -3,10 +3,9 @@
 
 int my_strcmp(const char *s1, const char *s2) {
 
-	int my_strcmp(const char *s1, const char *s2) {
+int my_strcmp(const char *s1, const char *s2) {
 
 }
-
 
 void main() {
 	char string1[10];

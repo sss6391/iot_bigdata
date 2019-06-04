@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test1", "Test1\Test1.vcxproj", "{DD49A3A8-91A2-4367-9ADF-4BAA5604E94F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{6BB28726-9158-45E6-8B54-8D9B752B13B2}"
+	ProjectSection(SolutionItems) = preProject
+		..\basic_template.c = ..\basic_template.c
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test2", "test2\test2.vcxproj", "{45B6286D-B043-4C0B-A6B9-1E5EC266419A}"
 EndProject
