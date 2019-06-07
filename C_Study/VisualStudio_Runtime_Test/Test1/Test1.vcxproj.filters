@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\5_File\q2_522.c">
+    <ClCompile Include="..\..\6_dynamic_memory\q1_551.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
