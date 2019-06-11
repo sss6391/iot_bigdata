@@ -1,0 +1,5 @@
+link /out:first_multi_obj.exe 2_583_main.obj 3_583_func.obj 4_583_num.obj
+
+
+
+link /out:ÆÄÀÏ¸í.exe 1.obj 2.obj
