@@ -19,15 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\8_development_by_team\592\areaArith.c" />
-    <ClCompile Include="..\..\8_development_by_team\592\basicArith.c" />
-    <ClCompile Include="..\..\8_development_by_team\592\main.c" />
-    <ClCompile Include="..\..\8_development_by_team\592\roundArith.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\8_development_by_team\592\areaArith.h" />
-    <ClInclude Include="..\..\8_development_by_team\592\basicArith.h" />
-    <ClInclude Include="..\..\8_development_by_team\592\roundArith.h" />
+    <ClCompile Include="..\..\test.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -87,10 +79,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);DEBUG</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);Ws2_32.lib;Mswsock.lib;AdvApi32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

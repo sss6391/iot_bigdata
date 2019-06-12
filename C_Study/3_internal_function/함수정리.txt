@@ -3,9 +3,9 @@
 변수 = fgetc(stdin)
 
 -----문자 한개 출력------
-putchar( 변수 )
-fputc( 변수 ,stdout)
-
+putchar( 변수 )  ('문자')
+fputc('문자' 또는 변수 ,stdout)  
+	
 
 엔터도 입력으로 봄 
 \n로 출력됨

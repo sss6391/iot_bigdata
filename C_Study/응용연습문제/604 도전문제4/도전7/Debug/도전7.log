@@ -1,0 +1,5 @@
+﻿  c7.c
+C:\iot_bigdata\C_Study\응용연습문제\604 도전문제4\도전7\c7.c(75,25): warning C4047:  '<': 'char [10]'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\iot_bigdata\C_Study\응용연습문제\604 도전문제4\도전7\c7.c(64,7): warning C4101:  'str1' :참조되지 않은 지역 변수입니다.
+C:\iot_bigdata\C_Study\응용연습문제\604 도전문제4\도전7\c7.c(65,7): warning C4101:  'str2' :참조되지 않은 지역 변수입니다.
+  도전7.vcxproj -> C:\iot_bigdata\C_Study\응용연습문제\Debug\도전7.exe
