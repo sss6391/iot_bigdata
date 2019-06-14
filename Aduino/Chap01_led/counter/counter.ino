@@ -1,4 +1,4 @@
-#define DELAY_TIME 300
+#define DELAY_TIME 50
 
 void setup(){
   pinMode(2,OUTPUT);

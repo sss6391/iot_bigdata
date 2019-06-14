@@ -1,3 +1,5 @@
 ﻿  win_socket_client-template.c
-C:\cygwin64\home\USER\win_socket_client-template.c(52,7): warning C4013:  'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\USER\Desktop\win_socket_client-template.c(53,7): warning C4013:  'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\USER\Desktop\win_socket_client-template.c(59,33): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\USER\Desktop\win_socket_client-template.c(59,33): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
   Test1.vcxproj -> C:\iot_bigdata\C_Study\VisualStudio_Runtime_Test\Debug\Test1.exe
